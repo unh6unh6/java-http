@@ -1,4 +1,4 @@
-package org.apache.coyote.http11.reqeust.util;
+package org.apache.coyote.http11.request.util;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.coyote.http11.HttpHeaders;
-import org.apache.coyote.http11.reqeust.HttpRequest;
+import org.apache.coyote.http11.request.HttpRequest;
 
 public class HttpRequestReader {
 

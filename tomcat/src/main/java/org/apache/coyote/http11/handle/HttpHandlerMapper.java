@@ -7,7 +7,7 @@ import org.apache.coyote.http11.handle.handler.DefaultHttpHandler;
 import org.apache.coyote.http11.handle.handler.resource.HtmlHttpHandler;
 import org.apache.coyote.http11.handle.handler.HttpHandler;
 import org.apache.coyote.http11.handle.handler.resource.JsHttpHandler;
-import org.apache.coyote.http11.reqeust.HttpRequest;
+import org.apache.coyote.http11.request.HttpRequest;
 
 public class HttpHandlerMapper {
 

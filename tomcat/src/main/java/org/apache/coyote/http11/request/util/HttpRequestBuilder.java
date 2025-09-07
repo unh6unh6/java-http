@@ -1,10 +1,10 @@
-package org.apache.coyote.http11.reqeust.util;
+package org.apache.coyote.http11.request.util;
 
 import org.apache.coyote.http11.HttpHeaders;
-import org.apache.coyote.http11.reqeust.HttpMethod;
+import org.apache.coyote.http11.request.HttpMethod;
 import org.apache.coyote.http11.HttpProtocolVersion;
-import org.apache.coyote.http11.reqeust.HttpRequest;
-import org.apache.coyote.http11.reqeust.QueryParameters;
+import org.apache.coyote.http11.request.HttpRequest;
+import org.apache.coyote.http11.request.QueryParameters;
 
 public class HttpRequestBuilder {
 

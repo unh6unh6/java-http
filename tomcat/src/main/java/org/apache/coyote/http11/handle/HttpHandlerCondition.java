@@ -1,7 +1,7 @@
 package org.apache.coyote.http11.handle;
 
-import org.apache.coyote.http11.reqeust.HttpMethod;
-import org.apache.coyote.http11.reqeust.HttpRequest;
+import org.apache.coyote.http11.request.HttpMethod;
+import org.apache.coyote.http11.request.HttpRequest;
 
 public record HttpHandlerCondition(
         HttpMethod method,

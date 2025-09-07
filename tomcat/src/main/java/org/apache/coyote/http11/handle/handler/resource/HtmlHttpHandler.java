@@ -2,7 +2,7 @@ package org.apache.coyote.http11.handle.handler.resource;
 
 import org.apache.coyote.http11.HttpHeaders;
 import org.apache.coyote.http11.HttpProtocolVersion;
-import org.apache.coyote.http11.reqeust.HttpRequest;
+import org.apache.coyote.http11.request.HttpRequest;
 import org.apache.coyote.http11.response.HttpResponse;
 import org.apache.coyote.http11.response.HttpStatus;
 

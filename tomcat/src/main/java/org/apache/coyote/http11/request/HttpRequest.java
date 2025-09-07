@@ -1,4 +1,4 @@
-package org.apache.coyote.http11.reqeust;
+package org.apache.coyote.http11.request;
 
 import org.apache.coyote.http11.HttpHeaders;
 import org.apache.coyote.http11.HttpProtocolVersion;
