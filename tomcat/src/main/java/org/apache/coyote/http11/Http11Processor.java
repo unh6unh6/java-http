@@ -49,6 +49,7 @@ public class Http11Processor implements Runnable, Processor {
             } catch (IllegalArgumentException e) {
                 response = handleBadRequest(request);
             } catch (IllegalStateException e) {
+                log.error(e.getMessage());
                 response = handleInternalServerError(request);
             }
             writer.write(response);
