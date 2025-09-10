@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.coyote.http11.HttpHeaders;
@@ -16,7 +17,7 @@ public class HttpRequestReader {
     private final HttpRequestParser parser = HttpRequestParser.getInstance();
 
     public HttpRequestReader(final InputStream inputStream) {
-        this.bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+        this.bufferedReader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8));
     }
 
     public HttpRequest read() throws IOException {
