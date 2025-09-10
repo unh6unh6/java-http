@@ -1,6 +1,5 @@
 package org.apache.catalina;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.coyote.http11.HttpSession;

@@ -12,7 +12,7 @@ public class HttpSession {
     private final Map<String, Object> values = new HashMap<>();
 
     public HttpSession() {
-        this.id = String.valueOf(UUID.randomUUID());
+        this.id = UUID.randomUUID().toString();
     }
 
     public void setAttribute(
