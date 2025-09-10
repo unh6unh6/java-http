@@ -53,7 +53,7 @@ public class HttpRequestReader {
         }
         int contentLength = Integer.parseInt(headers.getHeader("Content-Length"));
         char[] buf = new char[contentLength];
-        final int byteCount = bufferedReader.read(buf, 0, contentLength);
+        bufferedReader.read(buf, 0, contentLength);
 
         return new String(buf);
     }
